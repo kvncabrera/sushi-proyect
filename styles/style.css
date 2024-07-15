@@ -819,11 +819,29 @@ h3 {
 
 /* FOOTER */
 
+
+
+
+
 .footer {
   background-color: #222;
   color: #fff;
   padding: 2rem 0;
   text-align: center;
+}
+
+
+
+.footer__logo {
+  font-size: 3rem;
+  font-family: "Lora", serif;
+  color: #dad7cd;
+  background: #88715b;
+  font-weight: 700;
+  text-decoration: none;
+  
+  
+
 }
 
 .footer__content {
