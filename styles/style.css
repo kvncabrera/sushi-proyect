@@ -875,4 +875,10 @@ h3 {
   .footer__copy p {
     font-size: 0.8rem;
   }
+  .header__logo
+  .footer__links
+  .social-icon{
+    bottom: disabled;
+  }
+
 }
