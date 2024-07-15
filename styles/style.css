@@ -834,8 +834,7 @@ h3 {
   background: #88715b;
   font-weight: 700;
   text-decoration: none;
-  pointer-events: none;
-  cursor: default;
+
 }
 
 .footer__content {
@@ -876,8 +875,10 @@ h3 {
 
   }
 
-  .footer__logo {
+  .footer__logo a{
     margin-bottom: 1rem;
+    pointer-events: none;
+    cursor: default;
   }
 
   .footer__links a,
