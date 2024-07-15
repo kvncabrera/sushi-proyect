@@ -861,6 +861,7 @@ h3 {
   .footer__links,
   .footer__social {
     margin: 1rem 0;
+
   }
 
   .footer__logo {
@@ -870,15 +871,12 @@ h3 {
   .footer__links a,
   .social-icon {
     margin: 5px;
+    pointer-events: none;
+    cursor: default;
   }
 
   .footer__copy p {
     font-size: 0.8rem;
-  }
-  .header__logo
-  .footer__links
-  .social-icon{
-    bottom: disabled;
   }
 
 }
