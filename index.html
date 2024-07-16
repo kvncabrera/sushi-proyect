@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Sushi Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="sushi, restaurant, seville, sevilla">
-    <link rel="icon" type="image/x-icon" href="media/index/logoSuhi.png">
-    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="sushi, restaurant, seville, sevilla" />
+    <link rel="icon" type="image/x-icon" href="media/index/logoSuhi.png" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    >
+    />
     <script src="scripts/script.js" defer></script>
   </head>
 
@@ -21,17 +21,21 @@
     <!-- HEADER -->
     <header>
       <a href="#" class="header__logo">Sushi</a>
-      <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars"></i></button>
+      <button id="abrir" class="abrir-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
       <nav class="nav" id="nav">
-          <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-x"></i></button>
-          <ul class="nav-list">
-              <li><a href="#cards">Clásicos</a></li>
-              <li><a href="#historia">Historia</a></li>
-              <li><a href="#infaltables">Infaltables</a></li>
-              <li><a href="#reserva">Reserva</a></li>
-          </ul>
+        <button class="cerrar-menu" id="cerrar">
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#cards">Clásicos</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#infaltables">Infaltables</a></li>
+          <li><a href="#reserva">Reserva</a></li>
+        </ul>
       </nav>
-  </header>
+    </header>
 
     <!-- VIDEO -->
 
@@ -46,9 +50,15 @@
         </div>
       </div>
 
-      <video muted loop autoplay poster="media/index/hero-video-0.jpg" class="seccionVideo__video">
-        <source src="media/index/hero-video.mp4" type="video/mp4">
-        <source src="media/index/hero-video.webm" type="video/webm">
+      <video
+        muted
+        loop
+        autoplay
+        poster="media/index/hero-video-0.jpg"
+        class="seccionVideo__video"
+      >
+        <source src="media/index/hero-video.mp4" type="video/mp4" />
+        <source src="media/index/hero-video.webm" type="video/webm" />
         Tu navegador no soporta este video
       </video>
     </section>
@@ -64,7 +74,7 @@
             src="media/index/img-9.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          >
+          />
           <div class="card__contenido">
             <h3 class="card__titulo">Maki</h3>
             <p class="card__texto">
@@ -81,7 +91,7 @@
             src="media/index/img-8.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          >
+          />
           <div class="card__contenido">
             <h3 class="card__titulo">Uramaki</h3>
             <p class="card__texto">
@@ -99,7 +109,7 @@
             src="media/index/img-3.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          >
+          />
           <div class="card__contenido">
             <h3 class="card__titulo">Nigiri</h3>
             <p class="card__texto">
@@ -117,7 +127,7 @@
             src="media/index/img-10.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          >
+          />
           <div class="card__contenido">
             <h3 class="card__titulo">Dragon Roll</h3>
             <p class="card__texto">
@@ -163,117 +173,131 @@
             exclusivas, cada bocado es una explosión de sabor y frescura.
           </p>
 
-        <div class="gallery">
-            <img src="media/lightbox/KenjiTanaka.jpg" alt="KenjiTanaka" class="gallery-item">
-            <img src="media/lightbox/osaka.jpg" alt="Osaka" class="gallery-item">
-            <img src="media/lightbox/sevilla.jpg" alt="Sevilla" class="gallery-item">
-        </div>
-    
-        <div class="lightbox" id="lightbox">
+          <div class="gallery">
+            <img
+              src="media/lightbox/KenjiTanaka.jpg"
+              alt="KenjiTanaka"
+              class="gallery-item"
+            />
+            <img
+              src="media/lightbox/osaka.jpg"
+              alt="Osaka"
+              class="gallery-item"
+            />
+            <img
+              src="media/lightbox/sevilla.jpg"
+              alt="Sevilla"
+              class="gallery-item"
+            />
+          </div>
+
+          <div class="lightbox" id="lightbox">
             <span class="close">&times;</span>
-            <img src="scripts/script.js" class="lightbox-content" id="lightbox-content" alt="no-imagen">
+            <img
+              src="scripts/script.js"
+              class="lightbox-content"
+              id="lightbox-content"
+              alt="no-imagen"
+            />
+          </div>
         </div>
-        </div>
-     
       </section>
 
+      <!-- TABS -->
 
-<!-- TABS -->
+      <section class="seccion__tabs">
+        <!-- Poner estilo -->
 
-    <section class="seccion__tabs">  <!-- Poner estilo -->
+        <div class="contenedor__tabs" id="infaltables">
+          <h3 class="titulo__cards">INFALTABLES</h3>
 
-      <div class="contenedor__tabs" id="infaltables">
-        <h3 class="titulo__cards">INFALTABLES</h3>
-  
-        <div class="subcontenedor">
-
-          <ul class="ul">
-            <li class="li activo">VEGGIE ROLL</li>
-            <li class="li">TEMPURA ROLL</li>
-            <li class="li">SASHIMI</li>
-          </ul>
-          <div class="bloque activo">
-            <img
-              src="media/tabs-media/veggie-roll.jpg"
-              alt="Imagen 1"
-              class="tab-image"
-            >
-            <p class="tabs__texto">
-              Para quienes prefieren opciones sin pescado ni marisco, hay una
-              variedad de sushi vegetariano disponible: Kappa Maki, que es un
-              rollo de pepino envuelto en alga nori y arroz; Shiitake Nigiri, una
-              bola de arroz con una rebanada de seta shiitake marinada encima;
-              Avocado Maki, un rollo de aguacate envuelto en alga nori y arroz;
-              Tamago Nigiri, una bola de arroz con una rebanada de tortilla
-              japonesa dulce encima; Vegetable Tempura Roll, un rollo relleno de
-              vegetales tempura (fritos); y Yasai Temaki, un cono de alga nori
-              relleno de arroz y vegetales frescos como pepino, zanahoria y
-              aguacate.
-            </p>
-          </div>
-          <div class="bloque">
-            <img
-              src="media/tabs-media/tempura-roll.jpg"
-              alt="Imagen 2"
-              class="tab-image"
-            >
-            <p class="tabs__texto">
-              El Tempura Roll es un tipo de sushi muy popular que destaca por su
-              delicioso contraste de texturas y sabores. Este rollo generalmente
-              se compone de mariscos o vegetales que han sido recubiertos con una
-              masa ligera y crujiente de tempura y luego fritos. Los ingredientes
-              tempurizados se envuelven en una hoja de alga nori y arroz, y a
-              menudo se combinan con otros ingredientes frescos como aguacate,
-              pepino, y mayonesa japonesa para realzar el sabor.
-            </p>
-          </div>
-          <div class="bloque">
-            <img
-              src="media/tabs-media/sashimi-roll.jpg"
-              alt="Imagen 3"
-              class="tab-image"
-            >
-            <p class="tabs__texto">
-              El Sashimi es una exquisitez japonesa que destaca por su sencillez y
-              calidad de ingredientes. Consiste en finas láminas de pescado crudo
-              fresco, cortadas con precisión y servidas sin ningún tipo de arroz
-              ni aderezo. La clave del sashimi está en la calidad y frescura del
-              pescado utilizado, que puede incluir variedades como salmón, atún,
-              hamachi (pez limón), vieira, entre otros, dependiendo de la
-              disponibilidad y la temporada. Tradicionalmente, se acompaña con
-              wasabi (rábano picante japonés) y salsa de soya para realzar su
-              sabor sin ocultar la frescura natural del pescado
-            </p>
+          <div class="subcontenedor">
+            <ul class="ul">
+              <li class="li activo">VEGGIE ROLL</li>
+              <li class="li">TEMPURA ROLL</li>
+              <li class="li">SASHIMI</li>
+            </ul>
+            <div class="bloque activo">
+              <img
+                src="media/tabs-media/veggie-roll.jpg"
+                alt="Imagen 1"
+                class="tab-image"
+              />
+              <p class="tabs__texto">
+                Para quienes prefieren opciones sin pescado ni marisco, hay una
+                variedad de sushi vegetariano disponible: Kappa Maki, que es un
+                rollo de pepino envuelto en alga nori y arroz; Shiitake Nigiri,
+                una bola de arroz con una rebanada de seta shiitake marinada
+                encima; Avocado Maki, un rollo de aguacate envuelto en alga nori
+                y arroz; Tamago Nigiri, una bola de arroz con una rebanada de
+                tortilla japonesa dulce encima; Vegetable Tempura Roll, un rollo
+                relleno de vegetales tempura (fritos); y Yasai Temaki, un cono
+                de alga nori relleno de arroz y vegetales frescos como pepino,
+                zanahoria y aguacate.
+              </p>
+            </div>
+            <div class="bloque">
+              <img
+                src="media/tabs-media/tempura-roll.jpg"
+                alt="Imagen 2"
+                class="tab-image"
+              />
+              <p class="tabs__texto">
+                El Tempura Roll es un tipo de sushi muy popular que destaca por
+                su delicioso contraste de texturas y sabores. Este rollo
+                generalmente se compone de mariscos o vegetales que han sido
+                recubiertos con una masa ligera y crujiente de tempura y luego
+                fritos. Los ingredientes tempurizados se envuelven en una hoja
+                de alga nori y arroz, y a menudo se combinan con otros
+                ingredientes frescos como aguacate, pepino, y mayonesa japonesa
+                para realzar el sabor.
+              </p>
+            </div>
+            <div class="bloque">
+              <img
+                src="media/tabs-media/sashimi-roll.jpg"
+                alt="Imagen 3"
+                class="tab-image"
+              />
+              <p class="tabs__texto">
+                El Sashimi es una exquisitez japonesa que destaca por su
+                sencillez y calidad de ingredientes. Consiste en finas láminas
+                de pescado crudo fresco, cortadas con precisión y servidas sin
+                ningún tipo de arroz ni aderezo. La clave del sashimi está en la
+                calidad y frescura del pescado utilizado, que puede incluir
+                variedades como salmón, atún, hamachi (pez limón), vieira, entre
+                otros, dependiendo de la disponibilidad y la temporada.
+                Tradicionalmente, se acompaña con wasabi (rábano picante
+                japonés) y salsa de soya para realzar su sabor sin ocultar la
+                frescura natural del pescado
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
       <!-- CARROUSEL DE IMAGENES -->
 
-
-    <section class="carousel-seccion">
-
+      <section class="carousel-seccion">
         <h3 class="titulo__cards--carousel">CONOCE NUESTRO RESTAURANTE</h3>
 
         <div class="carousel-container">
-
           <button type="button" id="atras">&leftarrow;</button>
-  
+
           <img
             src="media/restaurant/rest-1.jpg"
             alt="imagen carrousel"
             width="250"
             height="250"
             id="imagen"
-          >
-  
+          />
+
           <button type="button" id="delante">&rightarrow;</button>
         </div>
-  
+
         <div class="carousel-controls">
           <button type="button" id="stop">Stop</button>
-  
+
           <div class="circles-container">
             <button type="button" class="botonCirculo">1</button>
             <button type="button" class="botonCirculo">2</button>
@@ -281,111 +305,115 @@
             <button type="button" class="botonCirculo">4</button>
           </div>
         </div>
-        <br>
+        <br />
+      </section>
 
-    </section>
+      <!-- RESERVA -->
 
-    <!-- RESERVA -->
-
-    <section class="seccion-reserva" id="reserva">
-      <div class="formulario-reserva">
-        <h2>Reserva tu mesa</h2>
-        <form action="media/index/" method="post" enctype="multipart/form-data">
-          <div class="input-group">
-            <label for="nombre" >Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-          </div>
-
-          <div class="input-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-
-          <div class="input-group">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-          </div>
-
-          <div class="input-group">
-            <label for="fecha">Fecha:</label>
-            <input type="date" id="fecha" name="fecha" required>
-          </div>
-
-          <div class="input-group">
-            <label for="hora">Hora:</label>
-            <input type="time" id="hora" name="hora" required>
-          </div>
-          <div class="input-group">
-            <label for="personas">Número de personas:</label>
-            <input
-              type="number"
-              id="personas"
-              name="personas"
-              min="1"
-              required
-            >
-          </div>
-          <div class="input-group">
-            <label for="descuento">Sube tu cupón de descuento</label>
-            <input class="cupon"
-              type="file"
-              id="descuento"
-              name="cupon__descuento"
-            >
-          </div>
-          <button type="submit">Resevar</button>
-        </form>
-      </div>
-    </section>
-
-<!-- TESTIMONIOS -->
-
-          <section class="testimonios">
-            <h2>Testimonios de clientes satisfechos</h2>
-            <div class="testimonios-container">
-              <div class="testimonio">
-                <div class="testimonio-avatar">
-                  <img src="media/persons/person-1.jpg" alt="avatar">
-                </div>
-                <div class="testimonio-content">
-                  <h3>Lucía</h3>
-                  <p>
-                    "¡El mejor sushi que he probado! Los sabores son increíbles y el
-                    servicio es excelente. Definitivamente volveré."
-                  </p>
-                  <div class="testimonio-rating">⭐️⭐️⭐️⭐️⭐️</div>
-                </div>
-              </div>
-              <div class="testimonio">
-                <div class="testimonio-avatar">
-                  <img src="media/persons/person-2.jpg" alt="avatar">
-                </div>
-                <div class="testimonio-content">
-                  <h3>Pablo</h3>
-                  <p>
-                    "Sushi, ofrece una experiencia gastronómica única. Los
-                    ingredientes son frescos y el ambiente es encantador. ¡Altamente
-                    recomendado!"
-                  </p>
-                  <div class="testimonio-rating">⭐️⭐️⭐️⭐️</div>
-                </div>
-              </div>
-              <div class="testimonio">
-                <div class="testimonio-avatar">
-                  <img src="media/persons/person-3.jpg" alt="avatar">
-                </div>
-                <div class="testimonio-content">
-                  <h3>Simón</h3>
-                  <p>
-                    "Cada vez que visito Sushi, me sorprenden con nuevos platos
-                    deliciosos. ¡Es un lugar que no te puedes perder si eres amante
-                    del sushi!"
-                  </p>
-                  <div class="testimonio-rating">⭐️⭐️⭐️⭐️⭐️</div>
-                </div>
-              </div>
+      <section class="seccion-reserva" id="reserva">
+        <div class="formulario-reserva">
+          <h2>Reserva tu mesa</h2>
+          <form
+            action="media/index/"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <div class="input-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
             </div>
-          </section>
+
+            <div class="input-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="input-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required />
+            </div>
+
+            <div class="input-group">
+              <label for="fecha">Fecha:</label>
+              <input type="date" id="fecha" name="fecha" required />
+            </div>
+
+            <div class="input-group">
+              <label for="hora">Hora:</label>
+              <input type="time" id="hora" name="hora" required />
+            </div>
+            <div class="input-group">
+              <label for="personas">Número de personas:</label>
+              <input
+                type="number"
+                id="personas"
+                name="personas"
+                min="1"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label for="descuento">Sube tu cupón de descuento</label>
+              <input
+                class="cupon"
+                type="file"
+                id="descuento"
+                name="cupon__descuento"
+              />
+            </div>
+            <button type="submit" disabled>Resevar</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- TESTIMONIOS -->
+
+      <section class="testimonios">
+        <h2>Testimonios de clientes satisfechos</h2>
+        <div class="testimonios-container">
+          <div class="testimonio">
+            <div class="testimonio-avatar">
+              <img src="media/persons/person-1.jpg" alt="avatar" />
+            </div>
+            <div class="testimonio-content">
+              <h3>Lucía</h3>
+              <p>
+                "¡El mejor sushi que he probado! Los sabores son increíbles y el
+                servicio es excelente. Definitivamente volveré."
+              </p>
+              <div class="testimonio-rating">⭐️⭐️⭐️⭐️⭐️</div>
+            </div>
+          </div>
+          <div class="testimonio">
+            <div class="testimonio-avatar">
+              <img src="media/persons/person-2.jpg" alt="avatar" />
+            </div>
+            <div class="testimonio-content">
+              <h3>Pablo</h3>
+              <p>
+                "Sushi, ofrece una experiencia gastronómica única. Los
+                ingredientes son frescos y el ambiente es encantador. ¡Altamente
+                recomendado!"
+              </p>
+              <div class="testimonio-rating">⭐️⭐️⭐️⭐️</div>
+            </div>
+          </div>
+          <div class="testimonio">
+            <div class="testimonio-avatar">
+              <img src="media/persons/person-3.jpg" alt="avatar" />
+            </div>
+            <div class="testimonio-content">
+              <h3>Simón</h3>
+              <p>
+                "Cada vez que visito Sushi, me sorprenden con nuevos platos
+                deliciosos. ¡Es un lugar que no te puedes perder si eres amante
+                del sushi!"
+              </p>
+              <div class="testimonio-rating">⭐️⭐️⭐️⭐️⭐️</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
