@@ -66,7 +66,7 @@ header {
   text-decoration: none;
   color: #dad7cd;
   font-family: "Lora", serif;
-  font-weight: weight;
+  font-weight: 100;
   font-style: normal;
   font-size: 1.2rem;
   padding: 1rem;
@@ -125,7 +125,6 @@ header {
   .nav-list li a {
     color: #ecececec;
   }
-
 }
 
 /* CONTENIDO HEADER VIDEO*/
@@ -173,7 +172,6 @@ header {
 }
 
 /* TEXTO HEADER*/
-
 
 .contenedor {
   display: flex;
@@ -279,7 +277,6 @@ header {
   }
 }
 
-
 /* MAIN  */
 /* CARDS */
 
@@ -348,7 +345,7 @@ header {
 
 .seccion__galeria {
   background-color: rgb(36, 34, 34);
-  padding: 2rem 0; 
+  padding: 2rem 0;
 }
 
 .contenedor__galeria {
@@ -445,7 +442,6 @@ h3 {
   .gallery {
     display: flex;
     flex-direction: column;
-    
   }
 }
 
@@ -731,7 +727,7 @@ h3 {
   cursor: pointer;
 }
 
-.cupon{
+.cupon {
   width: 100%;
   padding: 10px;
   background-color: #555;
@@ -740,7 +736,6 @@ h3 {
   border-radius: 4px;
   cursor: pointer;
 }
-
 
 .formulario-reserva button:hover {
   background-color: #777;
@@ -819,7 +814,6 @@ h3 {
 
 /* FOOTER */
 
-
 .footer {
   background-color: #222;
   color: #fff;
@@ -834,7 +828,6 @@ h3 {
   background: #88715b;
   font-weight: 700;
   text-decoration: none;
-
 }
 
 .footer__content {
@@ -872,10 +865,9 @@ h3 {
   .footer__links,
   .footer__social {
     margin: 1rem 0;
-
   }
 
-  .footer__logo a{
+  .footer__logo a {
     margin-bottom: 1rem;
     pointer-events: none;
     cursor: default;
@@ -891,5 +883,4 @@ h3 {
   .footer__copy p {
     font-size: 0.8rem;
   }
-
 }

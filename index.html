@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Sushi Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="sushi, restaurant, seville, sevilla">
-    <link rel="icon" type="image/x-icon" href="media/index/logoSuhi.png"/>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="media/index/logoSuhi.png">
+    <link rel="stylesheet" href="styles/style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    >
     <script src="scripts/script.js" defer></script>
   </head>
 
@@ -47,8 +47,8 @@
       </div>
 
       <video muted loop autoplay poster="media/index/hero-video-0.jpg" class="seccionVideo__video">
-        <source src="media/index/hero-video.mp4" type="video/mp4"/>
-        <source src="media/index/hero-video.webm" type="video/webm"/>
+        <source src="media/index/hero-video.mp4" type="video/mp4">
+        <source src="media/index/hero-video.webm" type="video/webm">
         Tu navegador no soporta este video
       </video>
     </section>
@@ -64,7 +64,7 @@
             src="media/index/img-9.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          />
+          >
           <div class="card__contenido">
             <h3 class="card__titulo">Maki</h3>
             <p class="card__texto">
@@ -81,7 +81,7 @@
             src="media/index/img-8.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          />
+          >
           <div class="card__contenido">
             <h3 class="card__titulo">Uramaki</h3>
             <p class="card__texto">
@@ -99,7 +99,7 @@
             src="media/index/img-3.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          />
+          >
           <div class="card__contenido">
             <h3 class="card__titulo">Nigiri</h3>
             <p class="card__texto">
@@ -117,7 +117,7 @@
             src="media/index/img-10.jpg"
             alt="Placeholder Image"
             class="card__imagen"
-          />
+          >
           <div class="card__contenido">
             <h3 class="card__titulo">Dragon Roll</h3>
             <p class="card__texto">
@@ -164,14 +164,14 @@
           </p>
 
         <div class="gallery">
-            <img src="media/lightbox/Kenji Tanaka.jpg" alt="Imagen 1" class="gallery-item">
-            <img src="media/lightbox/osaka.jpg" alt="Imagen 2" class="gallery-item">
-            <img src="media/lightbox/sevilla.jpg" alt="Imagen 3" class="gallery-item">
+            <img src="media/lightbox/KenjiTanaka.jpg" alt="KenjiTanaka" class="gallery-item">
+            <img src="media/lightbox/osaka.jpg" alt="Osaka" class="gallery-item">
+            <img src="media/lightbox/sevilla.jpg" alt="Sevilla" class="gallery-item">
         </div>
     
         <div class="lightbox" id="lightbox">
             <span class="close">&times;</span>
-            <img class="lightbox-content" id="lightbox-content">
+            <img src="scripts/script.js" class="lightbox-content" id="lightbox-content" alt="no-imagen">
         </div>
         </div>
      
@@ -197,7 +197,7 @@
               src="media/tabs-media/veggie-roll.jpg"
               alt="Imagen 1"
               class="tab-image"
-            />
+            >
             <p class="tabs__texto">
               Para quienes prefieren opciones sin pescado ni marisco, hay una
               variedad de sushi vegetariano disponible: Kappa Maki, que es un
@@ -216,7 +216,7 @@
               src="media/tabs-media/tempura-roll.jpg"
               alt="Imagen 2"
               class="tab-image"
-            />
+            >
             <p class="tabs__texto">
               El Tempura Roll es un tipo de sushi muy popular que destaca por su
               delicioso contraste de texturas y sabores. Este rollo generalmente
@@ -232,7 +232,7 @@
               src="media/tabs-media/sashimi-roll.jpg"
               alt="Imagen 3"
               class="tab-image"
-            />
+            >
             <p class="tabs__texto">
               El Sashimi es una exquisitez japonesa que destaca por su sencillez y
               calidad de ingredientes. Consiste en finas láminas de pescado crudo
@@ -266,7 +266,7 @@
             width="250"
             height="250"
             id="imagen"
-          />
+          >
   
           <button type="button" id="delante">&rightarrow;</button>
         </div>
@@ -290,30 +290,30 @@
     <section class="seccion-reserva" id="reserva">
       <div class="formulario-reserva">
         <h2>Reserva tu mesa</h2>
-        <form action="aca se define la ubicacion" method="post">
+        <form action="media/index/" method="post" enctype="multipart/form-data">
           <div class="input-group">
-            <label for="nombre" a >Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required />
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
           </div>
 
           <div class="input-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email" required>
           </div>
 
           <div class="input-group">
             <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required />
+            <input type="tel" id="telefono" name="telefono" required>
           </div>
 
           <div class="input-group">
             <label for="fecha">Fecha:</label>
-            <input type="date" id="fecha" name="fecha" required />
+            <input type="date" id="fecha" name="fecha" required>
           </div>
 
           <div class="input-group">
             <label for="hora">Hora:</label>
-            <input type="time" id="hora" name="hora" required />
+            <input type="time" id="hora" name="hora" required>
           </div>
           <div class="input-group">
             <label for="personas">Número de personas:</label>
@@ -323,16 +323,15 @@
               name="personas"
               min="1"
               required
-            />
+            >
           </div>
           <div class="input-group">
             <label for="descuento">Sube tu cupón de descuento</label>
             <input class="cupon"
               type="file"
-              enctype="multipart/form-data"
-              id="cupon"
+              id="descuento"
               name="cupon__descuento"
-            />
+            >
           </div>
           <button type="submit">Resevar</button>
         </form>
@@ -346,7 +345,7 @@
             <div class="testimonios-container">
               <div class="testimonio">
                 <div class="testimonio-avatar">
-                  <img src="media/persons/person-1.jpg" alt="Avatar" />
+                  <img src="media/persons/person-1.jpg" alt="avatar">
                 </div>
                 <div class="testimonio-content">
                   <h3>Lucía</h3>
@@ -359,7 +358,7 @@
               </div>
               <div class="testimonio">
                 <div class="testimonio-avatar">
-                  <img src="media/persons/person-2.jpg" alt="Avatar" />
+                  <img src="media/persons/person-2.jpg" alt="avatar">
                 </div>
                 <div class="testimonio-content">
                   <h3>Pablo</h3>
@@ -373,7 +372,7 @@
               </div>
               <div class="testimonio">
                 <div class="testimonio-avatar">
-                  <img src="media/persons/person-3.jpg" alt="Avatar" />
+                  <img src="media/persons/person-3.jpg" alt="avatar">
                 </div>
                 <div class="testimonio-content">
                   <h3>Simón</h3>
